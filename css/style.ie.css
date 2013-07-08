@@ -1,0 +1,131 @@
+/* --------------------------------------------------------------------------------
+   [All Internet Explorer version styles]
+-------------------------------------------------------------------------------- */
+html { font-size: 101%; }
+
+/* --------------------------------------------------------------------------------
+   [6-7 Internet Explorer version styles]
+-------------------------------------------------------------------------------- */
+
+.line {zoom:1;}
+
+.b-inline,
+.btn,
+.b-loader,
+.block-video,
+.account__name,
+.account__name-foto,
+.account__exit,
+.account__name-text,
+.b-link,
+.b-flip,
+.archive-block,
+.ico,
+.block-info-popup-text,
+.block-info-popup-link {display:inline; zoom:1;}
+
+.block-info-popup-link { padding-left:22px;}
+.block-info-popup-link .ico_type_stop { position:absolute; margin-left:-12px;}
+.block-info-popup-text { ;display:inline; white-space:nowrap;}
+
+.ftr__menu,
+.ftr__company { display:inline;}
+
+.ico { font:0/0 a;}
+
+.block-video-link_small { height:70px; width:70px;}
+.block-video-link_small img { }
+
+.main__sidebar-block { zoom:1; position:relative;}
+
+.b-flip {}
+	.b-flip__item { background:url("../i/flip-bg-ie.png");}
+	.b-flip__item_active { background:url("../i/flip-active-bg-ie.png");}
+
+.b-check { margin-top:-2px;}
+.b-input-i .b-input { float:left;}
+.login { zoom:1; overflow:hidden;}
+
+.form { zoom:1;}
+.form_settings {height: expression( this.scrollHeight < 236 ? "235px" : "auto" );}
+
+.form .b-input-i { margin-right:57px;}
+.form__left { margin-bottom:-37px;}
+.form__right { zoom:1;}
+.form_login .form__field_action .btn { margin-top:-27px; position:relative;}
+
+.control__flip,
+.control__nane,
+.control__check { display:inline;}
+
+.control__flip { margin-right:3px;}
+.archive-block_action .btn { position:relative;}
+.archive-journal .archive-block_name { float:left;}
+
+.main__sidebar-block, .main__list, .main__list-bg { zoom:1; position:relative;}
+.main__sidebar .main__sidebar-block-fst {
+	border-top:none;
+	margin-top:1px;
+}
+.main__sidebar .main__sidebar-block-lst {
+	border-bottom:none;
+	margin-bottom:1px;
+}
+.main__sidebar-active-black, .main__sidebar-active-black:hover, .main__sidebar-active-white {
+	border-top:none;
+	border-bottom:none;
+	margin: -2px 0 -8px 0;
+}
+.main__list {
+	background:#373f42;
+}
+.main__list-bg {
+	/*height:expression(this.parentNode.clientHeight+'px');*/
+}
+.tabs__header-title {
+
+	}
+ul.nav {
+	margin-top:-31px;
+	}
+.b-camera__body {
+	zoom:1;
+}
+.beam-left, .beam-top, .beam-right, .beam-bottom, .beam-center {
+	z-index:1;
+	font:0/0 a;
+	cursor:pointer;
+}
+.beam-left:hover, .beam-top:hover, .beam-right:hover, .beam-bottom:hover, .beam-center:hover {
+
+}
+
+
+/* --------------------------------------------------------------------------------
+   [6 Internet Explorer version styles]
+-------------------------------------------------------------------------------- */
+.list-link_accord {
+	background:url("../i/accord-ie.png") repeat-x;
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );*/
+	}
+.list-link_accord:hover {
+	background:url("../i/accord-hover-ie.png") repeat-x;
+	}
+.list-link_accord:active,
+.list-link_accord-active,
+.list-link_accord-active:hover {
+	background:url("../i/accord-active-ie.png") repeat-x;
+	}
+
+.btn_menu { background:url("../i/btn-grey-bg-ie.png");}
+.pager__item { background:url("../i/btn-grey-bg-ie.png");}
+.btn-group__item { background:url("../i/btn-group-item-bg-ie.png");}
+
+* html .btn_menu { behavior:none;}
+
+/* --------------------------------------------------------------------------------
+   [7 Internet Explorer version styles]
+-------------------------------------------------------------------------------- */
+*+html .b-input-i .b-input { behavior:none;}
+
+
